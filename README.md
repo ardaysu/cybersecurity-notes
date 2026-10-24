@@ -1,29 +1,36 @@
 # Siber Güvenlik Çalışma Notlarım
 
-Siber güvenlik konularını tekrar etmek, açıklamaları ve örnek vakaları birlikte okumak için hazırladığım kişisel bilgi arşivim.
+Bu depo, çalışma sohbetlerindeki ayrıntılı konu anlatımlarını, kritik kavram ayrımlarını ve analist düşünme biçimini kalıcı bir ders arşivine dönüştürür. Kısa konu dosyaları hızlı tekrar; **kapsamlı ders notları** ise ana referanstır.
 
-## Konular
+## Yol haritası ve ana notlar
 
-- [Güvenlik Temelleri ve Ağlar](guvenlik-temelleri/README.md)
-- [Güvenlik Operasyonları](guvenlik-operasyonlari/README.md)
-- [Tespit Mühendisliği](tespit-muhendisligi/README.md)
-- [Windows Güvenliği](windows-guvenligi/README.md)
-- [Tehdit İstihbaratı ve Olay İnceleme](tehdit-istihbarati-ve-olay-inceleme/README.md)
-- [Güvenlikte Makine Öğrenmesi](guvenlikte-makine-ogrenmesi/README.md)
-- [AI ve MCP Güvenliği](ai-ve-mcp-guvenligi/README.md)
+| Faz | Durum | Kapsamlı not |
+|---|---|---|
+| 1 — Güvenlik Temelleri ve Ağlar | Tamamlandı | [Ana ders notu](guvenlik-temelleri/kapsamli-ders-notlari.md) |
+| 2 — Güvenlik Operasyonları | Tamamlandı | [Ana ders notu](guvenlik-operasyonlari/kapsamli-ders-notlari.md) |
+| 3 — Tespit Mühendisliği | Kavramsal bölüm tamamlandı | [Ana ders notu](tespit-muhendisligi/kapsamli-ders-notlari.md) |
+| 4 — Windows Güvenliği | 5/10 tamamlandı, park edildi | [İşlenen konular](windows-guvenligi/kapsamli-ders-notlari.md) |
+| 5 — Threat Intelligence ve DFIR | 4/10 tamamlandı, park edildi | [İşlenen konular](tehdit-istihbarati-ve-olay-inceleme/kapsamli-ders-notlari.md) |
+| 6 — Güvenlikte Makine Öğrenmesi / Tez | Devam ediyor | [Ana ders notu](guvenlikte-makine-ogrenmesi/kapsamli-ders-notlari.md) |
+| Ek — AI ve MCP Güvenliği | Bağımsız çalışma alanı | [Konu dizini](ai-ve-mcp-guvenligi/README.md) |
 
-## Bu arşivde ne var?
+## Notların okuma biçimi
 
-Notion ders notlarından ve erişilebilen soru-cevap sohbetlerindeki açıklamalardan düzenlenmiş konu anlatımları, kavram ayrımları ve eğitim senaryoları bulunur. Örneklerde gözlenen kanıt ile olası açıklama ayrılır; belirsizlikler sonuç gibi sunulmaz.
+Her ana notta yalnızca kavram tanımı değil, kavramın neden önemli olduğu, hangi kanıtla doğrulanacağı ve hangi aşamada kesin hüküm verilemeyeceği açıklanır. Temel analiz ilkesi şudur:
 
-Notlar laboratuvarın uygulandığına veya gerçek bir olayın araştırıldığına dair kanıt değildir. Sayısal ML örnekleri varsayımsaldır. Gerçek uygulama çıktıları eklendiğinde kullanılan ortam, yöntem ve gözlemler ayrıca belgelenir.
+```text
+Gözlenen kanıt → bağlam → alternatif açıklama → ek doğrulama → ölçülü karar
+```
 
-## Düzen
+Örneğin “zararlı listesinde IP görüldü” gözlemdir; “cihaz ele geçirildi” ise ancak process, identity, dosya ve ağ telemetrisiyle desteklenebilecek sonuçtur. Benzer biçimde servis veya scheduled task oluşturulması persistence hazırlığını; ilgili process'in oluşması gerçek execution'ı gösterir.
 
-Klasörler konu alanlarını, altlarındaki dosyalar belirli bir dersi veya incelemeyi temsil eder. Notlar okuma sırasına bağlı değildir; farklı günlerdeki çalışmalar ilgili konu dosyasını genişletebilir.
+## Depo düzeni
 
-## Kaynak ve kapsam
+- Her klasördeki `kapsamli-ders-notlari.md` o fazın ana anlatımıdır.
+- Diğer `.md` dosyaları belirli konular için hızlı tekrar notlarıdır.
+- Park edilen fazlarda tamamlanmayan başlıklar açıkça işaretlenmiştir; yol haritası işlenmiş içerik gibi sunulmaz.
+- Örnek olaylar eğitim amaçlıdır. Gerçek laboratuvar veya incident çıktısı eklendiğinde ortam, veri kaynağı ve gözlem ayrıca belgelenir.
 
-Temeller, operasyonlar, tespit mühendisliği ve Windows bölümleri Notion'daki mevcut ders içeriklerinden aktarılmıştır. Makine öğrenmesi bölümü erişilebilen eski sohbet açıklamalarıyla; AI/MCP ve olay inceleme notları 24 Ekim 2026 dersindeki açıklama ve düzeltmelerle hazırlanmıştır. Erişilemeyen eski mesajlar birebir aktarılmış gibi gösterilmemiştir.
+## Çalışma hedefi
 
-İlgili sayfalarda dış kaynaklar belirtilmiştir. Teknik notlar kullanılan ürün sürümü ve ortam bağlamıyla değerlendirilmelidir.
+Arşiv; junior SOC/Blue Team temeli, Detection Engineering düşüncesi, Windows telemetrisi, Threat Intelligence/DFIR farkındalığı ve güvenlikte ML tez yönünü birbirine bağlayacak şekilde ilerler. Nihai hedef yalnız terimleri bilmek değil; bir saldırı iddiasını hangi verinin desteklediğini ve hangi belirsizliklerin kaldığını açıklayabilmektir.
