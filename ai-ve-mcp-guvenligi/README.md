@@ -5,4 +5,6 @@
 - [Dosya Erişim Sınırları, Path Traversal ve Sandbox](dosya-erisim-sinirlari-ve-sandbox.md)
 - [MS-Eval: Görev Devri, Fayda ve Güvenlik Ayrımı](ms-eval-gorev-devri-ve-degerlendirme.md)
 
+- [Kullanıcı, Workload ve Agent Kimlikleri](kullanici-workload-agent-kimlikleri.md)
+
 [Arşiv ana sayfası](../README.md)
