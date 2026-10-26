@@ -4,6 +4,12 @@
 
 Bu rehber, derslerde karşılaştığımız bilgileri tez yazımında yeniden bulmak için hazırlanmıştır. Nihai tez metni veya kapsam kararı değildir. Kaynakta bildirilen sonuçlar, kendi yorumlarımız ve henüz sınanmamış deney önerileri ayrı tutulur.
 
+## Tezde kullanabileceğim fikir ve cümleler
+
+[**Fikir ve cümle fişleri — 14 örnek**](fikir-ve-cumle-fisleri.md)
+
+İncelediğimiz konulardan tezde bahsedilebilecek argümanlar, Türkçe cümle taslakları, kaynak içindeki yerler ve araştırma soruları. Kaynak desteği ile ders sentezi ayrı belirtilir.
+
 ## 1. Tez bölümlerine göre kullanım haritası
 
 | Olası bölüm | Kullanılabilecek konu | Dikkat edilecek sınır |
