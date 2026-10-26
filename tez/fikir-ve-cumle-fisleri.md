@@ -162,6 +162,20 @@ Bu arşiv derslerden, okumalardan ve tartışmalardan tezde kullanılabilecek fi
 
 **Sonraki adım:** Tezde kullanılacak kayıt şeması ve politika uygulama noktası açıkça tanımlanmalı.
 
+## F15 — Güçlü kimlik kanıtı güvenli davranış garantisi değildir
+
+**Cümle taslağı:** “Agent kimliğinin kriptografik olarak doğrulanması, doğrulanan agentın her işleminin veri paylaşım politikası veya kullanıcının mevcut göreviyle uyumlu olduğunu tek başına garanti etmez.”
+
+**Dayanak:** Ders sentezi. [Google Cloud Agent Identity açıklaması](https://docs.cloud.google.com/mcp/authenticate-mcp#use_an_agent_identity_for_authentication), sertifikaya bağlı token mekanizmasını anlatır; görev meşruiyeti ayrımı bizim mimari yorumumuzdur.
+
+**Tezde yeri:** Kimlik doğrulama garantilerinin sınırları; yetkilendirme gereksiniminin gerekçesi.
+
+**Örneğimiz:** Doğru kimlikle bağlanan ve gönderme izni bulunan agentın, yalnızca özetlemesi istenen raporu yanlış alıcıya göndermesi.
+
+**Kullanım sınırı:** Bu örnek Google ürününde gösterilmiş bir açık değildir. Token hırsızlığını azaltma ile yetkili agentın davranışını sınırlama farklı tehditlere yönelik değerlendirilir.
+
+**Ders notu:** [Kimlik modelleri](../ai-ve-mcp-guvenligi/kullanici-workload-agent-kimlikleri.md).
+
 ## Bu fişler nasıl kullanılacak?
 
 Cümleler kopyalanmaya hazır nihai akademik metin değil, kaynak ve yorum sınırları belirtilmiş yazım malzemesidir. Kaynaklı cümleler bile tez bağlamına uyarlanmalı; sürüm, bölüm ve yayın durumu yazım sırasında kontrol edilmelidir. Ders sentezleri araştırma motivasyonu sağlayabilir, ancak özgün katkı iddiası için literatür karşılaştırması ve deney gerekir.
