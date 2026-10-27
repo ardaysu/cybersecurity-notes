@@ -15,4 +15,6 @@
 - [Sysmon ve Telemetri](sysmon-ve-telemetri.md)
 - [Windows Event Logs ve Authentication](windows-event-logs-ve-authentication.md)
 
+- [Parola Saldırıları ve Tespit](parola-saldirilari-ve-tespit.md)
+
 [Arşiv ana sayfası](../README.md)
