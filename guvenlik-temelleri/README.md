@@ -15,4 +15,6 @@
 - [TCP ve UDP](tcp-ve-udp.md)
 - [Temel Linux — Security İçin](temel-linux-security-icin.md)
 
+- [Dosya Silme ve Veri Kalıntıları](dosya-silme-ve-veri-kalintilari.md)
+
 [Arşiv ana sayfası](../README.md)
