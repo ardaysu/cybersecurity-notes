@@ -9,4 +9,6 @@
 
 - [Bearer Token: Sızıntı ve Erişim Sınırları](bearer-token-ve-sizinti.md)
 
+- [Token Audience ve Scope](token-audience-ve-scope.md)
+
 [Arşiv ana sayfası](../README.md)
