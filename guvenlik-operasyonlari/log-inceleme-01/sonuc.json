@@ -1,0 +1,30 @@
+[
+  {
+    "window_end": "09:03:00",
+    "src_ip": "198.51.100.24",
+    "attempts": 5,
+    "targeted_users": 5,
+    "users": [
+      "ayse",
+      "berk",
+      "cem",
+      "deniz",
+      "elif"
+    ],
+    "evidence": [
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07"
+    ],
+    "success_matches": [
+      {
+        "event_id": "E10",
+        "user": "deniz",
+        "time": "09:05:00",
+        "session_id": "S300"
+      }
+    ]
+  }
+]
