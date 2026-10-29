@@ -7,4 +7,6 @@
 
 - [Kullanıcı, Workload ve Agent Kimlikleri](kullanici-workload-agent-kimlikleri.md)
 
+- [Bearer Token: Sızıntı ve Erişim Sınırları](bearer-token-ve-sizinti.md)
+
 [Arşiv ana sayfası](../README.md)
