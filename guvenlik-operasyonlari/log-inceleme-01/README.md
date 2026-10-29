@@ -1,6 +1,6 @@
 # Log İnceleme 01 — Girişten Dosya Aktarımına
 
-Bu çalışma tamamen kurgusal kayıtlar üzerinde, soru-cevap yöntemiyle yürütülmüştür. Canlı sistem erişimi, gerçek olay müdahalesi veya tespit kuralı çalıştırılması yapılmamıştır.
+Bu çalışma tamamen kurgusal kayıtlar üzerinde, soru-cevap yöntemiyle yürütülmüştür. Canlı sistem erişimi veya gerçek olay müdahalesi yapılmamıştır. Devam dersinde kurgusal CSV üzerinde yerel tespit örneği çalıştırılmıştır.
 
 [Örnek kayıtları aç](olaylar.csv)
 
@@ -97,6 +97,6 @@ Bu karar kurgusal ortam için analist önerisidir; müdahale yapılmış değild
 
 ## Sonraki uygulama
 
-Bu çalışmanın devamında farklı hesaplara başarısız girişleri ve ardından gelen başarılı oturumu ilişkilendiren bir tespit mantığı tasarlanabilir. Alanlar, zaman penceresi, gruplama ve yanlış pozitif koşulları ayrı tanımlanmalıdır. Henüz böyle bir sorgu çalıştırılmamıştır.
+[Tespit kuralı tasarımı ve testleri](tespit-kurali.md) devam dersinde tamamlandı. Kayan pencere ve başarı korelasyonu kurgusal CSV üzerinde çalıştırıldı; kod, dört test ve sonuç dosyası aynı klasördedir. Üretim ortamında uygulanmamıştır.
 
 [Güvenlik Operasyonları](../README.md)
