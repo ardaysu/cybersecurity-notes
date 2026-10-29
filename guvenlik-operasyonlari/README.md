@@ -17,4 +17,6 @@
 
 - [Parola Saldırıları ve Tespit](parola-saldirilari-ve-tespit.md)
 
+- [Log İnceleme 01 — Girişten Dosya Aktarımına](log-inceleme-01/README.md)
+
 [Arşiv ana sayfası](../README.md)
