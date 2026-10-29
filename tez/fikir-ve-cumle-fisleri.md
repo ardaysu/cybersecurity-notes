@@ -176,6 +176,18 @@ Bu arşiv derslerden, okumalardan ve tartışmalardan tezde kullanılabilecek fi
 
 **Ders notu:** [Kimlik modelleri](../ai-ve-mcp-guvenligi/kullanici-workload-agent-kimlikleri.md).
 
+## F16 — Erişim iptali ile aktarılmış verinin kontrolü farklıdır
+
+**Cümle taslağı:** “Bir erişim tokenının geçersizleştirilmesi, daha önce bu tokenla alınmış veri kopyalarının ortadan kaldırıldığını göstermez.”
+
+**Dayanak:** Ders sentezi; [RFC 6750 §5](https://www.rfc-editor.org/rfc/rfc6750.html#section-5) token sızıntısı için arka plan sağlar, cümle doğrudan alıntı değildir.
+
+**Tezde yeri:** Token yaşam döngüsü ve olay sonrası yetkilendirme sınırları.
+
+**Araştırma fikri:** Yeni çağrıların engellenmesi ile önceki veri aktarımının etkisini ayrı ölçmek.
+
+**Sınır:** Eski tokenın iptal davranışı ürün ve mimariye bağlıdır; yeni token üretimi tek başına iptal kanıtı değildir.
+
 ## Bu fişler nasıl kullanılacak?
 
 Cümleler kopyalanmaya hazır nihai akademik metin değil, kaynak ve yorum sınırları belirtilmiş yazım malzemesidir. Kaynaklı cümleler bile tez bağlamına uyarlanmalı; sürüm, bölüm ve yayın durumu yazım sırasında kontrol edilmelidir. Ders sentezleri araştırma motivasyonu sağlayabilir, ancak özgün katkı iddiası için literatür karşılaştırması ve deney gerekir.
