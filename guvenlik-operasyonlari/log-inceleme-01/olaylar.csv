@@ -1,0 +1,16 @@
+id,time,source,event,user,src_ip,device,session_id,resource,result,bytes,note
+E01,09:00:00,identity,login,deniz,203.0.113.10,LAPTOP-D,S100,portal,success,0,password_and_mfa
+E02,09:01:00,files,download,deniz,203.0.113.10,LAPTOP-D,S100,rapor.pdf,success,240000,normal_download
+E03,09:02:00,identity,login,ayse,198.51.100.24,unknown,,portal,failure,0,invalid_credentials
+E04,09:02:15,identity,login,berk,198.51.100.24,unknown,,portal,failure,0,invalid_credentials
+E05,09:02:30,identity,login,cem,198.51.100.24,unknown,,portal,failure,0,invalid_credentials
+E06,09:02:45,identity,login,deniz,198.51.100.24,unknown,,portal,failure,0,invalid_credentials
+E07,09:03:00,identity,login,elif,198.51.100.24,unknown,,portal,failure,0,invalid_credentials
+E08,09:04:00,identity,password_reset,berk,203.0.113.10,LAPTOP-B,,portal,success,0,self_service_mfa_verified
+E09,09:04:30,identity,login,berk,203.0.113.10,LAPTOP-B,S200,portal,success,0,password_and_mfa
+E10,09:05:00,identity,login,deniz,198.51.100.24,unknown,S300,portal,success,0,password_only_legacy_endpoint
+E11,09:05:20,files,list,deniz,198.51.100.24,unknown,S300,finans,success,0,existing_read_permission
+E12,09:06:00,files,download,deniz,198.51.100.24,unknown,S300,finans-arsiv.zip,success,84000000,large_download
+E13,09:06:20,proxy,http_post,deniz,198.51.100.24,unknown,S300,https://upload.example.net,blocked,0,bytes_is_body_forwarded_to_destination
+E14,09:07:00,files,download,deniz,203.0.113.10,LAPTOP-D,S100,toplanti.pdf,success,180000,normal_download
+E15,09:08:00,identity,logout,berk,203.0.113.10,LAPTOP-B,S200,portal,success,0,user_logout
