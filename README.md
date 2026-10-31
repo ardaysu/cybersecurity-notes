@@ -35,6 +35,3 @@ Gözlenen kanıt → bağlam → alternatif açıklama → ek doğrulama → öl
 
 Arşiv; junior SOC/Blue Team temeli, Detection Engineering düşüncesi, Windows telemetrisi, Threat Intelligence/DFIR farkındalığı ve güvenlikte ML tez yönünü birbirine bağlayacak şekilde ilerler. Nihai hedef yalnız terimleri bilmek değil; bir saldırı iddiasını hangi verinin desteklediğini ve hangi belirsizliklerin kaldığını açıklayabilmektir.
 
-## Tez rehberi
-
-[Tez için kaynaklar, argümanlar ve araştırma fikirleri](tez/README.md): Kaynakların desteklediği iddialar, sınırlılıklar ve olası tez kullanım yerleri.
