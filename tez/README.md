@@ -107,3 +107,7 @@ Bu sorular uygulanmış deneyler veya doğrulanmış tez katkısı değildir. Li
 Her yeni kartta kaynağın türü ve bağlantısı, desteklediği iddia, sınırlılık, olası tez bölümü ve bizim yorumumuz yer alır. Bir sonuç yazılacaksa kaynak içindeki bölüm, tablo veya şekil ayrıca doğrulanır. Nicel bulgular ölçüt ve paydası belirtilmeden aktarılmaz.
 
 Tez metnine dönüşmeden önce künye, yayın durumu ve sürüm yeniden kontrol edilir. Üretici önerisi, deney sonucu ve bizim varsayımımız aynı kesinlikte yazılmaz.
+
+## Danışman görüşmesi hazırlığı
+
+[31 Ekim 2026 — Yapılan çalışmalar, somut çıktılar ve kapsam kararları](gorusme-hazirligi-2026-10-31.md)
